@@ -1,9 +1,9 @@
 import { add2 } from './math';
 
 describe('math', () => {
-  it('renders without crashing', () => {
-    const div = document.createElement('div');
-    ReactDOM.render(<App />, div);
-    ReactDOM.unmountComponentAtNode(div);
+  describe('add2', () => {
+    it('adds 2 to numbers', () => {
+      expect(add2(2)).toEqual(4)
+    });
   });
 })
