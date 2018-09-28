@@ -1,0 +1,1 @@
+export const add2 = n => n + 2
