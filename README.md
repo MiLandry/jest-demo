@@ -8,23 +8,16 @@ uses create-react-app for setup
 
 `yarn`
 
-## Run Locally
-
-`yarn start`
-
-then browse to 
-http://localhost:8080
-
 ## Tests
 
 `yarn test`
 
+
+## Mocking and integration
 
 ## Resources
 
 https://jestjs.io/
 
 ## License
-All Rights Lost
-
-Copywrong 2400
+UNLICENSED
